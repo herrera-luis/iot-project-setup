@@ -1,6 +1,6 @@
 ## IoT example project setup
 
-[![iot-project-master](https://github.com/herrera-luis/iot-project-setup/workflows/IoT%20example/badge.svg)](https://github.com/herrera-luis/iot-project-setup/actions)
+[![iot-project-master](https://github.com/herrera-luis/iot-project-setup/workflows/IoT%20project/badge.svg)](https://github.com/herrera-luis/iot-project-setup/actions)
 
 
 IoT base project that contains: platformio setup, arduino framework, unit test, integration tests and pipeline for CI & CD 

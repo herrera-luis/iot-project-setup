@@ -15,8 +15,6 @@ Alarm alarm(PIN_LED, delayTimeAlarm);
 ButtonControl buttonControl(PIN_BUTTON_UP, PIN_BUTTON_SELECT, PIN_BUTTON_DOWN);
 Service serviceClient(client);
 
-void(*resetFunc)(void) = 0; // reset
-
 void setup() {
     alarm.activate(2);
     Serial.begin(9600);

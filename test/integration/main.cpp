@@ -6,15 +6,9 @@
 #ifdef UNIT_TEST
 
 #define RUN_TEST_GROUP(TEST)                                                           \
-    if (true)                                                                          \
-    {                                                                                  \
         TEST::run_tests();                                                             \
-    }
-
-void setUp(void)
-{
     
-}
+void setUp(void){}
 
 int main(int argc, char **argv)
 {

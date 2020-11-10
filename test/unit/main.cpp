@@ -6,11 +6,11 @@
 
 using namespace fakeit;
 
+#ifdef UNIT_TEST
+
 #include "Alarm/AlarmTest.h"
 #include "ButtonControl/ButtonControlTest.h"
 #include "Service/ServiceTest.h"
-
-#ifdef UNIT_TEST
 
 #define RUN_TEST_GROUP(TEST)                                                           \
     if (!std::getenv("TEST_GROUP") || (strcmp(#TEST, std::getenv("TEST_GROUP")) == 0)) \
